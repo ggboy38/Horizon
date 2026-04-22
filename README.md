@@ -52,7 +52,7 @@ Horizon collects news from multiple customizable sources, uses AI to score and f
 
 ## Features
 
-> **🤝 Beyond a Cold AI Agent:** Designed with a "human touch". Build your personalized newsroom by deeply customizing feeds and sharing high-quality information sources via the [Preset Library](https://thysrael.github.io/Horizon/presets).
+> **🤝 Beyond a Cold AI Agent:** Designed with a "human touch". Build your personalized newsroom by deeply customizing feeds and sharing high-quality information sources via the [Horizon site](https://horizon1123.top/).
 
 - **📡 Multi-Source Aggregation** — Collects from Hacker News, RSS feeds, Reddit, Telegram channels, and GitHub (releases & user events)
 - **🤖 AI-Powered Scoring** — Uses Claude, GPT-4, Gemini, DeepSeek, Doubao, MiniMax, or any OpenAI-compatible API to rate each item 0-10, filtering out the noise
@@ -91,7 +91,7 @@ Horizon collects news from multiple customizable sources, uses AI to score and f
 
 ### 1. Install
 
-#### Option A: Local Installation
+**Option A: Local Installation**
 
 ```bash
 git clone https://github.com/Thysrael/Horizon.git
@@ -104,7 +104,7 @@ uv sync
 pip install -e .
 ```
 
-#### Option B: Docker
+**Option B: Docker**
 
 ```bash
 git clone https://github.com/Thysrael/Horizon.git
@@ -130,7 +130,7 @@ docker-compose run --rm horizon --hours 48
 uv run horizon-wizard
 ```
 
-The wizard asks about your interests (e.g. "LLM inference", "嵌入式", "web security") and auto-generates `data/config.json` from a [curated preset library](https://thysrael.github.io/Horizon/presets) + optional AI recommendations.
+The wizard asks about your interests (e.g. "LLM inference", "嵌入式", "web security") and auto-generates `data/config.json`.
 
 **Option B: Manual configuration**
 
@@ -229,7 +229,7 @@ See [`src/mcp/README.md`](src/mcp/README.md) for the full tool reference and [`s
 - [x] **MCP server integration**
 - [x] Web UI dashboard
 - [x] **Setup Wizard** — interactive CLI that recommends sources based on user interests
-- [ ] **Improved Web UI** — better digest and article detail experience
+- [X] **Improved Web UI** — better digest and article detail experience
 - [ ] Slack / Webhook notification
 - [ ] More source types (Twitter/X, Discord, etc.)
 - [ ] Custom scoring prompts per source
@@ -238,15 +238,11 @@ See [`src/mcp/README.md`](src/mcp/README.md) for the full tool reference and [`s
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-### Contribute Source Presets
+### Contribute News
 
-Horizon's setup wizard uses a community-maintained [preset library](https://thysrael.github.io/Horizon/presets) to recommend sources. **We'd love your help expanding it!**
+Want to share valuable updates with the Horizon community? Please contribute news directly at **[horizon1123.top](https://horizon1123.top)**.
 
-1. Fork this repo
-2. Add your sources to `data/presets.json` (provide both English and Chinese descriptions)
-3. Submit a PR
-
-Great candidates: niche RSS feeds, active subreddits, notable GitHub accounts, or Telegram channels in your area of expertise.
+Great candidates: niche RSS discoveries, active subreddit trends, notable GitHub updates, or Telegram channel highlights in your area of expertise.
 
 ## Acknowledgements
 
