@@ -1,5 +1,6 @@
 """Content analysis using AI."""
 
+import asyncio
 import json
 import re
 from typing import List, Optional
@@ -10,6 +11,8 @@ from .client import AIClient
 from .prompts import CONTENT_ANALYSIS_SYSTEM, CONTENT_ANALYSIS_USER
 from .utils import parse_json_response
 from ..models import ContentItem
+
+DEFAULT_THROTTLE_SEC = 0.0
 
 
 class ContentAnalyzer:
@@ -26,15 +29,14 @@ class ContentAnalyzer:
         """
         return parse_json_response(response)
 
-    async def analyze_batch(
-        self,
-        items: List[ContentItem],
-        batch_size: int = 10
-    ) -> List[ContentItem]:
-        import asyncio, os
-        # Throttle between items to respect free-tier RPM limits.
-        # Gemini AI Studio free tier: ~15 RPM on flash-lite. 4.5s spacing = ~13 RPM, safe margin.
-        throttle_sec = float(os.environ.get("HORIZON_THROTTLE_SEC", "4.5"))
+    def _get_throttle_sec(self) -> float:
+        """Return the configured inter-item throttle, clamped to zero or above."""
+        config = getattr(self.client, "config", None)
+        throttle_sec = getattr(config, "throttle_sec", DEFAULT_THROTTLE_SEC)
+        return max(throttle_sec, 0.0)
+
+    async def analyze_batch(self, items: List[ContentItem]) -> List[ContentItem]:
+        throttle_sec = self._get_throttle_sec()
         analyzed_items = []
 
         with Progress(
@@ -46,21 +48,19 @@ class ContentAnalyzer:
         ) as progress:
             task = progress.add_task("Analyzing", total=len(items))
 
-            for i in range(0, len(items), batch_size):
-                batch = items[i:i + batch_size]
-                for item in batch:
-                    try:
-                        await self._analyze_item(item)
-                        analyzed_items.append(item)
-                    except Exception as e:
-                        print(f"Error analyzing item {item.id}: {e}")
-                        item.ai_score = 0.0
-                        item.ai_reason = "Analysis failed"
-                        item.ai_summary = item.title
-                        analyzed_items.append(item)
-                    progress.advance(task)
-                    if throttle_sec > 0:
-                        await asyncio.sleep(throttle_sec)
+            for index, item in enumerate(items):
+                try:
+                    await self._analyze_item(item)
+                    analyzed_items.append(item)
+                except Exception as e:
+                    print(f"Error analyzing item {item.id}: {e}")
+                    item.ai_score = 0.0
+                    item.ai_reason = "Analysis failed"
+                    item.ai_summary = item.title
+                    analyzed_items.append(item)
+                progress.advance(task)
+                if throttle_sec > 0 and index < len(items) - 1:
+                    await asyncio.sleep(throttle_sec)
 
         return analyzed_items
 

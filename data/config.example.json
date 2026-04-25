@@ -5,7 +5,8 @@
     "model": "gpt-4",
     "api_key_env": "OPENAI_API_KEY",
     "temperature": 0.3,
-    "max_tokens": 4096
+    "max_tokens": 4096,
+    "throttle_sec": 0
   },
   "email": {
     "enabled": false,

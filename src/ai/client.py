@@ -47,6 +47,8 @@ class AnthropicClient(AIClient):
         Args:
             config: AI configuration
         """
+        self.config = config
+
         api_key = os.getenv(config.api_key_env)
         if not api_key:
             raise ValueError(f"Missing API key: {config.api_key_env}")
@@ -107,6 +109,8 @@ class OpenAIClient(AIClient):
         Args:
             config: AI configuration
         """
+        self.config = config
+
         api_key = os.getenv(config.api_key_env)
         if not api_key:
             raise ValueError(f"Missing API key: {config.api_key_env}")
@@ -170,6 +174,8 @@ class MiniMaxClient(AIClient):
         Args:
             config: AI configuration
         """
+        self.config = config
+
         api_key = os.getenv(config.api_key_env)
         if not api_key:
             raise ValueError(f"Missing API key: {config.api_key_env}")
@@ -240,6 +246,8 @@ class AliClient(AIClient):
         Args:
             config: AI configuration
         """
+        self.config = config
+
         api_key = os.getenv(config.api_key_env)
         if not api_key:
             raise ValueError(f"Missing API key: {config.api_key_env}")
@@ -296,6 +304,8 @@ class GeminiClient(AIClient):
         Args:
             config: AI configuration
         """
+        self.config = config
+
         api_key = os.getenv(config.api_key_env)
         if not api_key:
             raise ValueError(f"Missing API key: {config.api_key_env}")
