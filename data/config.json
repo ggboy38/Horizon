@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "ai": {
-    "provider": "xiaomi",
+    "provider": "openai",
     "model": "mimo-v2.5",
     "base_url": "https://api.xiaomimimo.com/v1",
     "api_key_env": "sk-c0wj0rux2aj8z08dgarz8s9ynhpexpq6q71w2cwzrjjew3fd",
