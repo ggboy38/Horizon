@@ -5,278 +5,219 @@ date: 2026-05-07
 lang: en
 ---
 
-> From 36 items, 12 important content pieces were selected
+> From 34 items, 10 important content pieces were selected
 
 ---
 
-1. [SQLite Recommended by Library of Congress for Digital Preservation](#item-1) ⭐️ 9.0/10
-2. [NVIDIA, OpenAI, Microsoft Release MRC Protocol for AI Clusters](#item-2) ⭐️ 9.0/10
-3. [Moonshot AI Raises $700M+ at $10B+ Valuation as Kimi Revenue Skyrockets](#item-3) ⭐️ 9.0/10
-4. [SGLang v0.5.11: CUDA 13, Torch 2.11, Spec Decode V2](#item-4) ⭐️ 8.0/10
-5. [Vibe coding and agentic engineering converge, raising concerns](#item-5) ⭐️ 8.0/10
-6. [Developer Migrates Auth: Supabase → Clerk → Better Auth](#item-6) ⭐️ 8.0/10
-7. [Mathematical Theory Proposes Analytic Jump in Deep Learning Training](#item-7) ⭐️ 8.0/10
-8. [Google Chrome Silent 4GB AI Model Download Sparks Privacy, Legal Outcry](#item-8) ⭐️ 8.0/10
-9. [EU Proposes Mandatory Removal of Huawei, ZTE Equipment](#item-9) ⭐️ 8.0/10
-10. [Anthropic Partners with SpaceX to Boost Claude Compute Limits](#item-10) ⭐️ 8.0/10
-11. [Apple's R&D spending exceeds 10% of revenue for first time in 30 years, accelerating AI push](#item-11) ⭐️ 8.0/10
-12. [Xiaomi Open-Sources OmniVoice: 646-Language Voice Cloning TTS](#item-12) ⭐️ 8.0/10
+1. [Anthropic Partners with SpaceX for Massive GPU Compute](#item-1) ⭐️ 9.0/10
+2. [SGLang v0.5.11: CUDA 13, Torch 2.11, Spec Decode V2, New Models](#item-2) ⭐️ 8.0/10
+3. [School Programs Cut Child Marriages in Nigeria](#item-3) ⭐️ 8.0/10
+4. [SQLite Named Library of Congress Recommended Storage Format](#item-4) ⭐️ 8.0/10
+5. [AI creates illusion of productivity with verbose artifacts](#item-5) ⭐️ 8.0/10
+6. [Vibe coding and agentic engineering converge in practice](#item-6) ⭐️ 8.0/10
+7. [Moonshot AI Valuation Hits $10B After $700M+ Funding Round](#item-7) ⭐️ 8.0/10
+8. [Apple R&D spending surpasses 10% of revenue for first time in 30 years](#item-8) ⭐️ 8.0/10
+9. [Tencent Hy3 Preview Hits 10x Token Volume vs Hy2 in 2 Weeks](#item-9) ⭐️ 8.0/10
+10. [Xiaomi Open-Sources OmniVoice: 646-Language Voice Cloning TTS](#item-10) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [SQLite Recommended by Library of Congress for Digital Preservation](https://sqlite.org/locrsf.html) ⭐️ 9.0/10
+## [Anthropic Partners with SpaceX for Massive GPU Compute](https://www.anthropic.com/news/higher-limits-spacex) ⭐️ 9.0/10
 
-The Library of Congress has officially recommended SQLite as a preferred format for digital content storage, recognizing its suitability for long-term preservation. This endorsement from a major cultural institution validates SQLite's robustness and reliability, potentially driving broader adoption in archival and preservation systems worldwide. The recommendation is part of the Library of Congress's sustainability of digital formats initiative, and while initially made in 2018, it remains relevant as of 2026.
+Anthropic announced a deal with SpaceX to use the entire compute capacity of the Colossus 1 data center, gaining access to over 220,000 Nvidia GPUs and 300 megawatts of power. Immediately, Claude Code's rate limits for all paid plans are doubled, and peak-hour restrictions for Pro/Max users are removed, with significant increases to Claude Opus API limits. This partnership dramatically expands Anthropic's computing resources, enabling faster model training and higher service capacity for Claude. It underscores the critical role of massive-scale GPU clusters in the competitive AI landscape and represents a strategic alliance between two major tech players. The Colossus 1 data center in Memphis, Tennessee, provides over 300 megawatts of power and more than 220,000 Nvidia GPUs. Claude Code's 5-hour rate limit is doubled for all paid tiers, and Pro/Max users no longer face peak-hour restrictions; Claude Opus API rate limits are also substantially increased.
 
-hackernews · whatisabcdefgh · May 6, 21:58 · [Discussion](https://news.ycombinator.com/item?id=48042434)
+telegram · zaihuapd · May 6, 16:35
 
-**Background**: SQLite is a self-contained, serverless, zero-configuration SQL database engine that stores data in a single disk file. It is widely used in applications, embedded systems, and increasingly for data interchange. The Library of Congress evaluates digital formats for their longevity, openness, and adoption to guide preservation efforts.
+**Background**: Anthropic is the developer of Claude, a leading AI assistant and family of large language models. Claude Code is a recently released agentic coding tool that integrates with the user's codebase to perform software development tasks. The Colossus 1 data center, originally built by xAI (also owned by Elon Musk), is one of the largest AI supercomputers in the world.
 
-**Discussion**: Community comments highlight diverse perspectives: some praise SQLite's reliability and simplicity for most apps, while others note it may be overkill for simple tasks or pose security risks when PII is easily copied. One user also pointed out that the recommendation is nearly eight years old.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html">Anthropic, SpaceX announce compute deal, includes space ...</a></li>
+<li><a href="https://www.msn.com/en-us/news/other/anthropic-secures-full-use-of-spacexs-colossus-1-data-center/gm-GML9F02A91">Anthropic secures full use of SpaceX's Colossus 1 data center</a></li>
 
-**Tags**: `#SQLite`, `#Library of Congress`, `#data storage`, `#digital preservation`, `#database`
+</ul>
+</details>
+
+**Tags**: `#AI`, `#算力合作`, `#Claude`, `#Anthropic`, `#SpaceX`
 
 ---
 
 <a id="item-2"></a>
-## [NVIDIA, OpenAI, Microsoft Release MRC Protocol for AI Clusters](https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/) ⭐️ 9.0/10
+## [SGLang v0.5.11: CUDA 13, Torch 2.11, Spec Decode V2, New Models](https://github.com/sgl-project/sglang/releases/tag/v0.5.11) ⭐️ 8.0/10
 
-NVIDIA, OpenAI, and Microsoft jointly released the Multipath Reliable Connection (MRC) protocol, an open RDMA standard that uses packet spraying for multi-path data transmission and microsecond-level failover, aimed at reducing network congestion in AI supercomputing clusters. This collaboration addresses a critical bottleneck in large-scale AI training — GPU idle time due to network congestion — and is already deployed in production clusters training GPT-5.5, promising to accelerate future AI infrastructure such as Project Stargate. MRC is designed for RoCEv2 (RDMA over Converged Ethernet) and enables a single RDMA connection to distribute traffic across multiple network paths simultaneously, improving throughput and load balancing. It is already integrated into NVIDIA's Spectrum-X platform and Blackwell architecture, powering Microsoft's Fairwater and Oracle's OCI Abilene clusters.
+SGLang v0.5.11 upgrades default CUDA to 13 and PyTorch to 2.11, makes speculative decoding V2 the default, introduces decode radix cache for PD disaggregation, and adds support for models like Gemma 4, GLM-5.1, Qwen3.6, and Kimi-K2.6. This release significantly modernizes the SGLang inference stack with latest CUDA and PyTorch versions, and improves inference performance through default speculative decoding V2 and enhanced caching for disaggregated deployments. These updates are critical for developers deploying large language models at scale, offering both speed and flexibility. Speculative decoding V2 uses overlap scheduling to hide CPU overhead, reducing per-step CPU cost for EAGLE/MTP/DFLASH paths. The new decode radix cache recovers prefix cache hit rates under prefill/decode disaggregation, saving TTFT for long shared prefixes.
 
-telegram · zaihuapd · May 6, 14:39
+github · Kangyan-Zhou · May 5, 21:28
 
-**Background**: Remote Direct Memory Access (RDMA) is a technology that allows data transfer between servers' memory without CPU involvement, reducing latency and overhead. Traditional RDMA connections are single-path, leading to congestion in large AI clusters. MRC extends this by enabling multi-path communication, using packet spraying to balance load and reroute around failures in microseconds.
+**Background**: SGLang is a high-performance serving framework for large language models and multimodal models, known for its RadixAttention mechanism. Speculative decoding is a technique that uses a small draft model to propose tokens and a target model to verify them in parallel, speeding up inference. PD (prefill-decode) disaggregation separates the prefill and decode phases across different workers to optimize resource utilization.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.servethehome.com/nvidia-spectrum-x-mrc-is-the-custom-rdma-transport-protocol-for-gigascale-ai/">NVIDIA Spectrum-X MRC is the Custom RDMA Transport Protocol for Gigascale AI - ServeTheHome</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Remote_direct_memory_access">Remote direct memory access - Wikipedia</a></li>
-<li><a href="https://4sysops.com/archives/multipath-reliable-connection-mrc-a-new-open-networking-protocol-for-ai-supercomputers/">Multipath Reliable Connection (MRC): a new, open networking protocol for AI supercomputers – 4sysops</a></li>
+<li><a href="https://github.com/sgl-project/sglang">GitHub - sgl-project/ sglang : SGLang is a high-performance serving...</a></li>
+<li><a href="https://newreleases.io/project/github/sgl-project/sglang/release/v0.5.11">sgl-project/ sglang v0.5.11 on GitHub</a></li>
+<li><a href="https://github.com/sgl-project/sglang/issues/3554">[Feature] Proposal for adding PD - Disaggregation Feature to SGLang...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Infrastructure`, `#Networking`, `#NVIDIA`, `#OpenAI`, `#RDMA`
+**Tags**: `#SGLang`, `#LLM inference`, `#CUDA`, `#PyTorch`, `#speculative decoding`
 
 ---
 
 <a id="item-3"></a>
-## [Moonshot AI Raises $700M+ at $10B+ Valuation as Kimi Revenue Skyrockets](https://t.me/zaihuapd/41251) ⭐️ 9.0/10
+## [School Programs Cut Child Marriages in Nigeria](https://www.nature.com/articles/d41586-026-00796-2) ⭐️ 8.0/10
 
-Chinese AI startup Moonshot AI has completed a new funding round of over $700 million, led by Alibaba, Tencent, and others, pushing its valuation past $10 billion. In just 20 days, revenue from its Kimi assistant has exceeded its total 2025 revenue, driven by global paid users and API calls. This funding marks one of the largest AI investments in China, highlighting the rapid growth and market demand for domestic large language models. The revenue surge indicates strong product-market fit, potentially positioning Kimi as a leading competitor to global AI assistants. The round includes investments from Alibaba, Tencent, Wu Capital, and Jiuan, with total funding exceeding $1.2 billion. Moonshot AI achieved the $10B valuation in just over two years, the fastest for a Chinese startup to reach 'deci-unicorn' status. Its K2.5 model is an open-source multimodal AI model released in January 2026, and is available on the OpenRouter platform.
+A new study finds that targeted school programs, which address the reasons girls drop out, significantly reduce child marriages in Nigeria. This research highlights a scalable intervention that can improve girls' lives and reduce a harmful practice, informing policy in Nigeria and other developing regions. The study is observational, and commenters note that the reduction may stem from the support system and safe environment provided, not just school attendance per se.
 
-telegram · zaihuapd · May 7, 00:30
+hackernews · surprisetalk · May 7, 13:30 · [Discussion](https://news.ycombinator.com/item?id=48049208)
 
-**Background**: Moonshot AI is a Beijing-based startup founded in 2023, focused on developing large language models and AI assistants. Kimi is their flagship AI assistant product supporting text, code, and visual understanding. The company's rapid valuation growth reflects the intense investment race in China's AI sector, especially after the rise of models like DeepSeek and others.
+**Background**: Child marriage remains prevalent in Nigeria, with many girls forced into marriage early due to poverty, cultural norms, and lack of educational opportunities. Keeping girls in school is often proposed as a protective factor, but evidence on effective programs is limited.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.kimi.com/ai-models/kimi-k2-5">Kimi K2.5 | Open Visual Agentic Model for Real Work</a></li>
-<li><a href="https://openrouter.ai/">OpenRouter</a></li>
-<li><a href="https://build.nvidia.com/moonshotai/kimi-k2.5/modelcard">kimi-k2.5 Model by Moonshotai | NVIDIA NIM</a></li>
+**Discussion**: Commenters debate whether the effect is due to schooling or the program's broader support; some suggest other factors like factory jobs also help reduce child marriage. Others recommend reading the full policy brief for more context.
 
-</ul>
-</details>
-
-**Tags**: `#AI`, `#funding`, `#startup`, `#large language model`, `#China`
+**Tags**: `#education`, `#child marriage`, `#Nigeria`, `#social development`, `#policy`
 
 ---
 
 <a id="item-4"></a>
-## [SGLang v0.5.11: CUDA 13, Torch 2.11, Spec Decode V2](https://github.com/sgl-project/sglang/releases/tag/v0.5.11) ⭐️ 8.0/10
+## [SQLite Named Library of Congress Recommended Storage Format](https://sqlite.org/locrsf.html) ⭐️ 8.0/10
 
-SGLang v0.5.11 has been released, upgrading the default CUDA version to 13.0, PyTorch to 2.11, and enabling speculative decoding V2 by default. It also introduces a decode radix cache for prefill/decode disaggregation and adds support for numerous new models including Gemma 4, GLM-5.1, Qwen3.6, MiMo-V2.5, Ling-2.6-Flash, Mistral Medium 3.5, and Kimi-K2.6. These upgrades significantly improve LLM inference performance: speculative decoding V2 reduces CPU overhead per step, the decode radix cache recovers time-to-first-token (TTFT) savings in disaggregated deployments, and the new model support broadens SGLang's applicability. This release marks a major step forward for the LLM serving ecosystem. Key technical changes include: default CUDA version upgraded to 13.0 and PyTorch to 2.11; speculative decoding V2 enabled by default with overlap scheduling to hide CPU overhead; decode radix cache for PD disaggregation; LoRA support for DeepSeek-V3 and Kimi-K2; community-contributed FA3 kernels; and context parallelism enhancements with all-reduce and RMSNorm fusion.
+The Library of Congress has officially recommended SQLite as a storage format for digital preservation, highlighting its reliability and durability. This endorsement from a major cultural institution validates SQLite as a trusted format for long-term data storage, potentially boosting its adoption in archiving and other sectors. The recommendation is based on SQLite's proven stability and widespread use; however, community comments note that this recognition dates back to 2018, making it several years old.
 
-github · Kangyan-Zhou · May 5, 21:28
+hackernews · whatisabcdefgh · May 6, 21:58 · [Discussion](https://news.ycombinator.com/item?id=48042434)
 
-**Background**: SGLang is a high-performance inference engine for large language models (LLMs). Speculative decoding accelerates LLM inference by predicting and verifying multiple tokens simultaneously, reducing latency while preserving output quality. Prefill/decode (PD) disaggregation decouples the two stages of inference to improve interactivity. Radix cache is a technique used in SGLang for automatic KV cache reuse through a radix tree structure, exploiting shared prefixes across requests.
+**Background**: SQLite is a self-contained, serverless database engine widely used in applications for local data storage. The Library of Congress maintains a list of recommended formats for sustaining digital content, and its inclusion signals that SQLite meets high standards for preservation.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://developer.nvidia.com/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/">An Introduction to Speculative Decoding for Reducing Latency in AI Inference | NVIDIA Technical Blog</a></li>
-<li><a href="https://www.bentoml.com/llm/inference-optimization/prefill-decode-disaggregation">Prefill - decode disaggregation | LLM Inference Handbook</a></li>
-<li><a href="https://www.lmsys.org/blog/2024-01-17-sglang/">Fast and Expressive LLM Inference with RadixAttention and SGLang - LMSYS Blog | LMSYS Org</a></li>
+**Discussion**: Community comments show mixed views: some praise SQLite's reliability, while others note it may be overkill for simple use cases and point out the announcement's age. One commenter created a lighter alternative, and another highlights corporate bans due to data portability risks.
 
-</ul>
-</details>
-
-**Tags**: `#SGLang`, `#LLM serving`, `#CUDA`, `#speculative decoding`, `#release notes`
+**Tags**: `#SQLite`, `#data storage`, `#Library of Congress`, `#file formats`, `#digital preservation`
 
 ---
 
 <a id="item-5"></a>
-## [Vibe coding and agentic engineering converge, raising concerns](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything) ⭐️ 8.0/10
+## [AI creates illusion of productivity with verbose artifacts](https://nooneshappy.com/article/appearing-productive-in-the-workplace/) ⭐️ 8.0/10
 
-In a podcast, Simon Willison realized that his once-clear distinction between vibe coding (using AI without reviewing code) and agentic engineering (professional oversight) is blurring, as he now sometimes trusts AI agents for production code without reviewing every line. This convergence challenges responsible AI use in software development, potentially lowering code quality and increasing security risks if even experienced engineers skip review. It highlights the need for updated best practices as AI tools become more reliable. Willison noted that for routine tasks like building a JSON API endpoint, Claude Code is so reliable he doesn't review the code, yet he feels guilt about not reviewing production code. He compares this to trusting code from other teams in larger organizations.
+An article critiques how AI is used to generate lengthy, superficial work artifacts (e.g., requirements documents, status updates) that create an illusion of productivity while diluting expert judgment and elongating workplace communications. This matters because it highlights a growing trend where AI-generated content undermines genuine productivity and expertise, leading to bloated workflows and erosion of critical thinking in professional settings. The article identifies three forms of this problem: novices producing work resembling seniors', people generating artifacts in untrained disciplines, and experts whose judgment and taste are diluted by AI reliance.
 
-rss · Simon Willison · May 6, 14:24 · [Discussion](https://news.ycombinator.com/item?id=48037128)
+hackernews · diebillionaires · May 6, 16:18 · [Discussion](https://news.ycombinator.com/item?id=48038001)
 
-**Background**: Vibe coding refers to using AI to generate code without understanding it, often by non-programmers relying on 'vibes' and minimal review. Agentic engineering, in contrast, involves professional engineers orchestrating AI agents while maintaining architectural control and code review. These terms emerged from the proliferation of AI coding tools like GitHub Copilot and Claude Code.
+**Background**: The article is a critique of a phenomenon where AI tools like large language models are used to generate verbose, seemingly professional documents. This creates an illusion of productivity but actually wastes time and dilutes true expertise. The author observes that workplace communications are becoming elongated and less meaningful.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding - Wikipedia</a></li>
-<li><a href="https://cloud.google.com/discover/what-is-agentic-coding">What is agentic coding? How it works and use cases | Google Cloud</a></li>
-<li><a href="https://addyosmani.com/blog/agentic-engineering/">AddyOsmani.com - Agentic Engineering</a></li>
+**Discussion**: Comments resonate deeply with the article's observations, with users sharing real-world examples of managers using AI to appear competent, leading to over-engineered designs and personal attacks when challenged. One commenter notes that LLMs have automated sucking up to management.
 
-</ul>
-</details>
-
-**Discussion**: Commenters expressed mixed views: u8 noted that vibe coding is fine for personal projects given AI's jagged frontier, while etothet argued that undisciplined engineering existed before AI. jwpapi questioned the reliability claim, pointing out many design decisions still need human judgment, and zarzavat warned that AI errors are becoming more subtle.
-
-**Tags**: `#AI coding`, `#vibe coding`, `#agentic engineering`, `#software development`, `#LLMs`
+**Tags**: `#AI`, `#workplace productivity`, `#software engineering`, `#management`, `#critique`
 
 ---
 
 <a id="item-6"></a>
-## [Developer Migrates Auth: Supabase → Clerk → Better Auth](https://blog.val.town/better-auth) ⭐️ 8.0/10
+## [Vibe coding and agentic engineering converge in practice](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything) ⭐️ 8.0/10
 
-A developer documented their journey migrating authentication from Supabase to Clerk and finally to Better Auth, sharing practical insights and trade-offs. The post sparks high-engagement debate on self-hosted vs third-party authentication, offering real-world migration lessons that help developers make informed decisions. The move involved migrating from Supabase Auth (tightly coupled with Postgres) to Clerk (a third-party service) and then to Better Auth (a self-hosted, TypeScript-first library).
+Simon Willison, an experienced software engineer, reveals that vibe coding and agentic engineering are blurring in his own work, as AI coding tools become more reliable and he finds himself reviewing less of the generated code, even for production systems. This convergence challenges the earlier distinction between irresponsible vibe coding for personal projects and responsible agentic engineering, raising questions about code trustworthiness and engineering standards as AI tools become more autonomous. Willison notes that for routine tasks like creating a JSON API endpoint with SQL, he trusts Claude Code to produce correct code without review, but feels guilt about not checking every line, comparing it to relying on code from other teams in large organizations.
 
-hackernews · stevekrouse · May 6, 17:19 · [Discussion](https://news.ycombinator.com/item?id=48038827)
+rss · Simon Willison · May 6, 14:24 · [Discussion](https://news.ycombinator.com/item?id=48037128)
 
-**Background**: Supabase is an open-source Firebase alternative that includes built-in auth. Clerk is a third-party authentication service offering full-stack user management. Better Auth is a lightweight, extensible authentication library for TypeScript that avoids vendor lock-in. The debate centers on whether to offload auth to a third party or maintain full control with self-hosted solutions.
+**Background**: Vibe coding is an AI-assisted practice where developers describe what they want and let an LLM generate code, often without scrutinizing the output. Agentic engineering involves using AI tools as an assistant while maintaining full oversight and engineering rigor. The distinction has been widely discussed since Andrej Karpathy coined 'vibe coding' in early 2025.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://clerk.com/">Clerk | Authentication and User Management</a></li>
-<li><a href="https://www.contentful.com/blog/clerk-authentication/">Clerk auth: What it is and how to add it to your Next.js project | Contentful</a></li>
-<li><a href="https://www.telerik.com/blogs/simplified-authentication-better-auth">Simplified Authentication with Better Auth | Telerik Blogs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding - Wikipedia</a></li>
+<li><a href="https://www.ibm.com/think/topics/agentic-engineering">What is agentic engineering? - IBM</a></li>
+<li><a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained">Agentic AI, explained - MIT Sloan</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments show varied perspectives: one user questioned the need for third-party auth at all, while another (Bereket from Better Auth) expressed joy that the library solved the problem. Another developer defended rolling their own auth for customizability, and a technical comment highlighted how availability compounds in complex systems.
+**Discussion**: Commenters express skepticism about AI reliability, with one noting that errors become more subtle and harder to catch. Another points out that undisciplined engineering practices existed before AI but are now accelerated. A third questions the assumption that AI always gets routine tasks right, citing missing architectural decisions.
 
-**Tags**: `#authentication`, `#supabase`, `#clerk`, `#better-auth`, `#web-development`
+**Tags**: `#AI coding`, `#vibe coding`, `#agentic engineering`, `#software engineering`, `#LLM tools`
 
 ---
 
 <a id="item-7"></a>
-## [Mathematical Theory Proposes Analytic Jump in Deep Learning Training](https://elonlit.com/scrivings/a-theory-of-deep-learning/) ⭐️ 8.0/10
+## [Moonshot AI Valuation Hits $10B After $700M+ Funding Round](https://t.me/zaihuapd/41251) ⭐️ 8.0/10
 
-A new article proposes a mathematical theory that characterizes deep learning training dynamics using locally linear differential equations and kernel eigenmodes, suggesting a method to analytically jump to the final network state without iterative optimization. This work offers a potential path to drastically accelerate deep learning training by bypassing the slow, step-by-step optimization process, and provides a new mathematical lens for understanding how neural networks learn. The theory shows that in output space, dominant eigenmodes of the evolving kernel equilibrate exponentially fast, making iterative gradient descent inefficient. The paper also draws connections to control theory, identifying the 'Cumulative Dissipation Gramian' as equivalent to the Observability Gramian.
+Moonshot AI, the Chinese AI startup behind the Kimi assistant, has completed a new funding round of over $700 million led by Alibaba and Tencent, pushing its valuation past $10 billion. In the past 20 days, Kimi's cumulative revenue has already surpassed its total for the entire year of 2025, driven by global paid users and API calls, with overseas revenue now exceeding domestic. This milestone underscores the rapid growth and valuation escalation of Chinese AI startups, challenging U.S. dominance in the large language model space. The revenue surge indicates strong product-market fit and global adoption, positioning Moonshot AI as a key player alongside leading international models. The cumulative funding for Moonshot AI now exceeds $1.2 billion. Its latest model, the open-source K2.5, is a multimodal agentic model built on 15 trillion tokens and is available on platforms like OpenRouter.
 
-hackernews · elonlit · May 5, 19:38 · [Discussion](https://news.ycombinator.com/item?id=48027455)
+telegram · zaihuapd · May 7, 00:30
 
-**Background**: Deep learning training typically relies on iterative optimization algorithms like gradient descent, which update network parameters step by step. The new theory leverages concepts from kernel methods and dynamical systems to explain training dynamics, suggesting that many optimization steps are unnecessary because the kernel's dominant eigenmodes converge rapidly.
+**Background**: Moonshot AI is a Chinese startup founded in 2023, known for developing the Kimi large language model and assistant. The company has gained attention for its open-source K2 series, with K2.5 being its most powerful model, integrating vision, language, and agentic capabilities. OpenRouter is a unified API platform providing access to various AI models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://elonlit.com/scrivings/a-theory-of-deep-learning/">A Theory of Deep Learning | Elements of a Vector Space</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Kernel_method">Kernel method - Wikipedia</a></li>
+<li><a href="https://www.kimi.com/ai-models/kimi-k2-5">Kimi K2.5 | Open Visual Agentic Model for Real Work</a></li>
+<li><a href="https://github.com/MoonshotAI/Kimi-K2.5">GitHub - MoonshotAI/Kimi-K2.5: Moonshot's most powerful model</a></li>
+<li><a href="https://openrouter.ai/models">Models | OpenRouter</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments express strong interest, with references to related papers such as 'Deep Learning is Not So Mysterious or Different' and 'A Theory of Generalization in Deep Learning'. Some discussants question the computational cost of the proposed analytic jump, while one commenter cautions that the title may overreach, comparing the field's current state to the era of Kepler rather than Newton.
-
-**Tags**: `#deep learning`, `#theory`, `#mathematical framework`, `#training dynamics`
+**Tags**: `#AI`, `#Funding`, `#Startup`, `#Large Language Model`
 
 ---
 
 <a id="item-8"></a>
-## [Google Chrome Silent 4GB AI Model Download Sparks Privacy, Legal Outcry](https://www.tomshardware.com/tech-industry/cyber-security/google-chrome-silently-downloads-4gb-ai-model-to-your-device-without-permission-report-claims-researcher-says-practice-may-violate-eu-law-waste-thousands-of-kilowatts-of-energy) ⭐️ 8.0/10
+## [Apple R&D spending surpasses 10% of revenue for first time in 30 years](https://www.cnbc.com/2026/05/06/apples-rd-spending-climbs-to-10percent-of-revenue-on-ai-investments.html) ⭐️ 8.0/10
 
-Security researcher Alexander Hanff reported that Google Chrome silently downloads a 4 GB Gemini Nano AI model file (weights.bin) to eligible devices without user consent, and the file reappears even after manual deletion. This practice potentially violates EU GDPR and other privacy laws, raises significant environmental concerns due to massive energy consumption for distribution, and imposes bandwidth costs on users with data caps, affecting millions globally. The downloaded file is weights.bin, containing the model parameters for Gemini Nano. The researcher estimates that if deployed to 1 billion users, the resulting carbon emissions could reach 60,000 tons.
+Apple's R&D spending reached 10.3% of revenue in the March 2026 fiscal quarter, the first time it has exceeded 10% in 30 years, with R&D investment growing 34% year-over-year despite 17% revenue growth. This marks a strategic pivot for Apple, as it aggressively invests in on-device AI, custom chips, and private cloud computing to reshape its hardware platform, similar to the iPod-era transformation. The move signals Apple's urgency to catch up in AI and could define its post-iPhone product lineup. Apple is reportedly developing AI glasses and AirPods with cameras, alongside a foldable iPhone and Siri upgrades. CEO Tim Cook is set to step down in September 2026, and the company is focusing on on-device AI and private cloud computing to power Apple Intelligence.
 
-telegram · zaihuapd · May 6, 11:15
+telegram · zaihuapd · May 7, 01:00
 
-**Background**: Gemini Nano is Google's on-device AI model designed for tasks like smart reply and summarization, running locally via Android's AICore. 'weights.bin' stores the neural network parameters (weights) that define the model's behavior. Silently downloading large files without explicit consent contravenes principles of user control and transparency under laws like GDPR.
+**Background**: On-device AI runs AI models directly on devices like phones and tablets without constant cloud connectivity, enabling faster responses and better privacy. Apple's 'Private Cloud Compute' is a server infrastructure that handles complex AI tasks securely. Apple's R&D spending ratios had been below 10% for decades, and this increase reflects a major strategic bet.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.androidauthority.com/google-chrome-weights-bin-ai-model-download-explained-3664043/">The truth behind Chrome's 4GB 'weights.bin' Gemini Nano file</a></li>
-<li><a href="https://www.zdnet.com/article/google-may-have-downloaded-a-4gb-chrome-file-to-your-pc-heres-why/">Why Chrome may have quietly downloaded a 4GB file to ... - ZDNET</a></li>
-<li><a href="https://www.thewindowsclub.com/what-is-weights-bin-file-in-chrome-can-i-delete-it">What is weights.bin file in Chrome? Can I delete it?</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/1931281139416404545">终于有人把端侧大模型说清楚了 - 知乎</a></li>
+<li><a href="https://stock.10jqka.com.cn/usstock/20260218/c674837048.shtml">消息称 苹 果 AI 私 有 云 端 算 力大跃进：跳过 M3 和 M4，直接部署 M5 芯片</a></li>
+<li><a href="https://www.163.com/dy/article/KRODH2L40511B8LM.html">苹 果 AI 眼 镜 曝光：内置2颗摄像头、支持Siri交互、可手势控制</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Privacy`, `#Google Chrome`, `#AI`, `#GDPR`, `#Environment`
+**Tags**: `#Apple`, `#AI`, `#R&D`, `#hardware`, `#strategy`
 
 ---
 
 <a id="item-9"></a>
-## [EU Proposes Mandatory Removal of Huawei, ZTE Equipment](https://t.me/zaihuapd/41247) ⭐️ 8.0/10
+## [Tencent Hy3 Preview Hits 10x Token Volume vs Hy2 in 2 Weeks](https://finance.sina.com.cn/tech/shenji/2026-05-07/doc-inhwzrtp8521239.shtml) ⭐️ 8.0/10
 
-The European Commission is considering new regulations that would require all EU member states to phase out equipment from Huawei and ZTE in their telecom and broadband infrastructure, upgrading previous non-binding recommendations to legally binding rules with economic penalties for non-compliance. This marks a significant policy shift from voluntary guidelines to mandatory enforcement, potentially reshaping Europe's 5G supply chain and escalating tensions with China, while impacting global telecom vendors' market access and trade relations. The EU also plans to restrict external infrastructure funding, stopping project loans to non-EU countries that use Huawei or ZTE equipment. The move is justified by EU officials as protecting cybersecurity and technological sovereignty, while China strongly condemns the designation of Chinese firms as high-risk without factual basis.
+Tencent's Hy3 preview model achieved over ten times the token call volume of its predecessor Hy2 within two weeks of launch and ranked first on OpenRouter's weekly leaderboard overall and in market share. This rapid adoption signals strong market validation for Tencent's latest open-source LLM, which could accelerate competition among major AI providers and drive further innovation in agent and coding scenarios. The Hy3 preview is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and a 256K token context window, showing particular strength in coding and tool-use tasks with over 16.5x growth in related applications.
 
-telegram · zaihuapd · May 6, 14:00
+telegram · zaihuapd · May 7, 05:34
 
-**Background**: Since 2020, the EU has issued non-binding recommendations to restrict 'high-risk suppliers' in 5G networks, but implementation varied across member states. The proposed regulation seeks to harmonize and enforce these restrictions. The EU's Global Gateway initiative, a €300 billion infrastructure investment program, may also tighten eligibility criteria. These steps reflect broader concerns about vendor risk and supply chain security in critical telecom infrastructure.
+**Background**: Tencent Hunyuan (Hy) is a series of large language models developed by Tencent. The Hy3 preview is the latest open-source MoE model, which activates only a subset of parameters per token for efficiency. OpenRouter is a unified API platform that aggregates models from multiple providers, allowing users to compare and access them easily.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.institutmontaigne.org/en/expressions/europeans-struggle-mitigate-5g-risks">Europeans Struggle to Mitigate 5G Risks | Institut Montaigne</a></li>
-<li><a href="https://www.rosalux.de/en/news/id/51019/the-global-gateway-deception">The “ Global Gateway ” Deception - Rosa-Luxemburg-Stiftung</a></li>
+<li><a href="https://hy3ai.com/">Hy3 Preview — Tencent Hunyuan 3 Open-Source Model</a></li>
+<li><a href="https://www.tencent.com/en-us/articles/2202320.html">Tencent Unveils Hy3 preview; Model Enhances Agent ...</a></li>
+<li><a href="https://huggingface.co/tencent/Hy3-preview">tencent/Hy3-preview · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Huawei`, `#ZTE`, `#EU regulation`, `#telecom`, `#cybersecurity`
+**Tags**: `#AI models`, `#Tencent`, `#OpenRouter`, `#LLM`, `#model benchmark`
 
 ---
 
 <a id="item-10"></a>
-## [Anthropic Partners with SpaceX to Boost Claude Compute Limits](https://www.anthropic.com/news/higher-limits-spacex) ⭐️ 8.0/10
-
-Anthropic has signed a partnership with SpaceX to gain exclusive access to the entire Colossus 1 data center in Memphis, Tennessee, adding over 300 megawatts of compute capacity with more than 220,000 NVIDIA GPUs. Effective immediately, Claude Code rate limits are doubled for all paid plans and peak-hour restrictions are removed for Pro and Max users, while Claude Opus API rate limits have been significantly increased. This partnership significantly alleviates compute bottlenecks for Anthropic, enabling faster iteration and larger-scale deployments of Claude, directly benefiting developers and enterprises that rely on Claude Code and Claude API. It also highlights the strategic importance of dedicated AI data centers and the growing collaboration between AI labs and infrastructure providers like SpaceX. Colossus 1 is one of the world's largest AI data centers, equipped with H100, H200, and next-generation GB200 accelerators from NVIDIA. Anthropic expressed interest in collaborating with SpaceX on space-based computing gigawatts in the future.
-
-telegram · zaihuapd · May 6, 16:35
-
-**Background**: Claude Code is Anthropic's agentic coding tool that integrates into the terminal for tasks like understanding codebases, editing files, and running commands. The partnership with SpaceX provides Anthropic with dedicated access to massive compute capacity, addressing the high resource demands of training and running large language models like Claude.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.nbcnews.com/tech/tech-news/anthropic-spacex-partnership-compute-power-rcna343902">Anthropic and SpaceX announce major partnership as AI arms races...</a></li>
-<li><a href="https://www.theneurondaily.com/p/anthropic-spacex-data-center-deal">Anthropic- SpaceX Memphis Deal Doubles Claude Code Limits</a></li>
-<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Anthropic`, `#Claude`, `#SpaceX`, `#AI compute`, `#GPU`
-
----
-
-<a id="item-11"></a>
-## [Apple's R&D spending exceeds 10% of revenue for first time in 30 years, accelerating AI push](https://www.cnbc.com/2026/05/06/apples-rd-spending-climbs-to-10percent-of-revenue-on-ai-investments.html) ⭐️ 8.0/10
-
-Apple's R&D spending reached 10.3% of revenue in the March 2026 quarter, the first time it has exceeded 10% in three decades, with a 34% year-over-year increase in R&D investment. This milestone signals Apple's strategic urgency in AI, as it invests in on-device AI, custom chips, and private cloud computing to reshape its hardware platform, potentially impacting the entire consumer electronics ecosystem. Apple is reportedly developing AI glasses and AirPods with cameras, alongside Siri upgrades and its first foldable iPhone, aiming to deeply integrate AI into its hardware ecosystem. CEO Tim Cook is set to hand over in September 2026.
-
-telegram · zaihuapd · May 7, 01:00
-
-**Background**: On-device AI refers to artificial intelligence processing performed directly on a user's device rather than in the cloud, enhancing privacy and speed. Private cloud computing is a cloud environment dedicated to a single organization, offering controlled access and data security. Apple's strategic focus on these areas aligns with its broader push to integrate AI into its product lineup while maintaining user privacy.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.anquanke.com/post/id/297252">苹 果 推出“ 私 有 云 计 算 ”和 Apple Intelligence AI-安全KER - 安全资讯平台</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#苹果`, `#AI`, `#研发`, `#硬件平台`
-
----
-
-<a id="item-12"></a>
 ## [Xiaomi Open-Sources OmniVoice: 646-Language Voice Cloning TTS](https://mp.weixin.qq.com/s/TCS_Sd10g_rvf1cszw673A) ⭐️ 8.0/10
 
-Xiaomi has open-sourced OmniVoice, a multi-language voice cloning text-to-speech (TTS) model based on a minimal bidirectional Transformer architecture. It achieves training speeds of 100,000 hours per day and PyTorch inference at 40x real-time, with synthesis quality surpassing mainstream commercial systems. OmniVoice's support for 646 languages and cross-language cloning capabilities can significantly broaden the accessibility of high-quality TTS for low-resource languages. Its open-source release allows researchers and developers to build upon the model, potentially accelerating innovation in voice synthesis and voice cloning. The model uses full-codebook random masking and large language model pre-training parameters to improve efficiency and intelligibility. It is trained on a dataset of 580,000 hours across 646 languages built from 50 open-source datasets, and in 24-language tests it outperforms commercial systems while approaching real human speech in 102-language evaluations.
+Xiaomi has open-sourced OmniVoice, a massively multilingual zero-shot text-to-speech (TTS) model that supports over 600 languages, including voice cloning. The model achieves a training speed of 100,000 hours per day and a PyTorch inference speed of 40x real-time, outperforming mainstream commercial systems in synthesis quality. This release democratizes high-quality multilingual TTS, enabling applications in accessibility, education, and global communication. Its zero-shot voice cloning capability allows users to clone voices in hundreds of languages without fine-tuning, significantly reducing the barrier to personalized speech synthesis. OmniVoice uses a diffusion language model-style discrete non-autoregressive architecture with full-codebook random masking. It was trained on 580,000 hours of speech data across 646 languages from 50 open-source datasets, and supports cross-lingual voice cloning, custom voice design, noisy speech adaptation, and pronunciation correction.
 
 telegram · zaihuapd · May 7, 10:06
 
-**Background**: Text-to-speech (TTS) technology converts written text into spoken audio. Voice cloning is a specialized TTS technique that mimics a specific person's voice from a short audio sample. Traditional TTS models often struggle with multilingual support and require large amounts of data per language, making OmniVoice's efficient architecture and extensive language coverage noteworthy.
+**Background**: Text-to-speech (TTS) systems convert written text into spoken audio. Traditional TTS models often require separate models or fine-tuning for each language, limiting scalability. OmniVoice unifies hundreds of languages into a single model with zero-shot voice cloning, where a model can mimic a speaker's voice from just a few seconds of audio without additional training.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://omnivoice.app/">OmniVoice : Free AI Voice Generator & Voice Cloning</a></li>
+<li><a href="https://huggingface.co/k2-fsa/OmniVoice">k2-fsa/OmniVoice · Hugging Face</a></li>
+<li><a href="https://zhu-han.github.io/omnivoice/">OmniVoice - zhu-han.github.io</a></li>
+<li><a href="https://dev.to/_46ea277e677b888e0cd13/omnivoice-open-source-tts-with-600-languages-and-zero-shot-voice-cloning-1mpn">OmniVoice: Open-Source TTS with 600+ Languages and Zero-Shot ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#语音克隆`, `#TTS`, `#多语言`, `#开源`, `#小米`
+**Tags**: `#语音合成`, `#多语言`, `#开源`, `#TTS`, `#小米`
 
 ---
